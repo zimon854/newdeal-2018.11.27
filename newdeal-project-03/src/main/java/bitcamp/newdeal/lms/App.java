@@ -14,12 +14,20 @@ public class App {
 		Date[] endDate = new Date[DEFAULT_SIZE];
 		int[] totalhours = new int[DEFAULT_SIZE];
 		int[] dayHours = new int[DEFAULT_SIZE];
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> work
 		int len = 0;
 
 		Scanner keyIn = new Scanner(System.in);
 
 		for (int i=0; i<DEFAULT_SIZE; i++) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> work
 			System.out.print("번호?");
 			int no[i] = Integer.parseInt(keyIn.nextLine());
 
@@ -61,7 +69,16 @@ public class App {
 					startDate[i],
 					endDate[i],
 					totalhours[i]);
+<<<<<<< HEAD
 		
+=======
+			System.out.printf("수업명:%s\n", title[i]);
+			System.out.printf("내용:%s\n", contents[i]);
+			System.out.printf("강의시작일:%s\n", startDate[i]);
+			System.out.printf("강의종료일:%s\n", endDate[i]);
+			System.out.printf("총수업시간:%d\n", totalhours[i]);
+			System.out.printf("일수업시간:%d\n", dayHours[i]);
+>>>>>>> work
 		}
 	}
 }
