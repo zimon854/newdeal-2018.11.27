@@ -22,19 +22,19 @@ public class App {
       lessons[i].contents = keyboard.nextLine();
       
       System.out.print("설명? ");
-      lessons[i].startDate = keyboard.nextLine();
+      lessons[i].startDate = Date.valueOf(keyboard.nextLine());
       
       System.out.print("시작일? ");
       lessons[i].endDate = Date.valueOf(keyboard.nextLine());
       
       System.out.print("종료일? ");
-      lessons[i].totalHours = Date.valueOf(keyboard.nextLine());
+      lessons[i].totalHours = Integer.parseInt(keyboard.nextLine());
       
       System.out.print("총수업시간? ");
       lessons[i].dayHours = Integer.parseInt(keyboard.nextLine());
       
       System.out.print("일수업시간? ");
-      lesson.no = Integer.parseInt(keyboard.nextLine());
+      lessons[i].no = Integer.parseInt(keyboard.nextLine());
       
       i++; // 배열의 인덱스를 증가시킨다.
       
