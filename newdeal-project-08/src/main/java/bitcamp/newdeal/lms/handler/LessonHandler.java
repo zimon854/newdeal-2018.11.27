@@ -1,9 +1,12 @@
+package bitcamp.newdeal.lms.handler;
 import java.sql.Date;
 import java.util.Scanner;
 
+import bitcamp.newdeal.lms.domain.Lesson;
+
 public class LessonHandler {
 
-  static Scanner keyboard;
+  public static Scanner keyboard;
   static final int LENGTH = 10;
   static Lesson[] lessons = new Lesson[LENGTH];
   static int lessonIdx = 0;

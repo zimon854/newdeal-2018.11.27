@@ -1,9 +1,11 @@
+package com.eomcs.lms.handler;
 import java.sql.Date;
 import java.util.Scanner;
+import com.eomcs.lms.domain.Board;
 
 public class BoardHandler {
   
-  static Scanner keyboard;
+  public static Scanner keyboard;
   static final int LENGTH = 10;
   static Board[] boards = new Board[LENGTH];
   static int boardIdx = 0;
